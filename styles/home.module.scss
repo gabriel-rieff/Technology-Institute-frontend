@@ -1,0 +1,103 @@
+.conteiner{
+    max-width: 1120px;
+}
+
+
+.text{
+    max-width: 1120px;
+    margin: 1rem;
+    
+    p{
+        font-size: 1.3rem;
+        border-right: 3px solid #FFF;
+        margin: 0 auto;
+        white-space: nowrap;
+        text-align: center;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: .5rem;
+    }
+
+    .typingAnimation {
+        animation: blinkCursor 500ms steps(50) infinite normal,
+        typing 4s steps(50) 1s normal both;
+    }
+
+    @keyframes typing {
+        from {
+           width: 0;
+        }
+        to{
+            width: 39.2em;
+        }
+    }
+
+    @keyframes blinkCursor{
+        from {
+            border-right-color: var(--green)
+        }
+        to{
+            border-right-color: transparent ;
+        }
+    }
+}
+
+.containerHeader{
+    min-height: 600px;
+    margin: 0 auto;
+    width: 1120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img{
+        max-width: 450px;
+        max-height: 500px;
+        border-radius: 8px;
+    }
+
+}
+
+.ctaText{
+    max-width: 600px;
+
+    span{
+        line-height: 2.25rem;
+    }
+}
+
+@media (max-width: 1150px){
+    .text{
+        max-width: 1120px;
+        margin: .5rem;
+        }
+
+        .containerHeader{
+            min-height: 600px;
+            margin: 0 auto;
+            max-width: 1120px;
+        
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        
+            img{
+                max-width: 350px;
+                max-height: 350px;
+                border-radius: 8px;
+            }
+        
+        }
+        
+        .ctaText{
+            max-width: 500px;
+            margin-left: auto;
+        
+            span{
+                line-height: 2.25rem;
+            }
+        }
+        
+}
+

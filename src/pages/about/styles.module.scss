@@ -1,0 +1,37 @@
+.container{
+    margin-top: 2rem;
+    width: 1120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content{
+    width: 50%;
+
+    h1{
+        font-size: 3rem;
+        color: var(--green);
+    }
+
+    p{
+        margin: 1rem;
+        text-align: left;
+        
+
+        &::first-letter{
+            font-size: 3rem !important;
+        }
+    }
+}
+
+.image {
+    max-width: 50%;
+
+    img{
+        opacity: .5;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+}
