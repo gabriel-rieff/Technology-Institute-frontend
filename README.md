@@ -14,7 +14,7 @@ Technology Institute
 
 ##  📖 **Abount**
 
-The **Technology Institute** is a personal project that I developed to improve my skills and acquire more knowledge, it was a very cool project to do, because it is a complete project with database, back end and front end. When developing this project I had the opportunity to learn a little about the back end and it was very cool, and I believe that I am getting more and more experienced with the use of **React and NextJS.**
+Still under construction 👷👷‍♀️🚧
 
 <br>
 
@@ -32,8 +32,3 @@ The **Technology Institute** is a personal project that I developed to improve m
 - [Nookies](https://www.npmjs.com/package/nookies)
 - [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
